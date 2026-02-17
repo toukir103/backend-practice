@@ -1,0 +1,57 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Toukir Ahmed",
+      "email": "toukir@gmail.com",
+      "role": "admin",
+      "isActive": true
+    },
+    {
+      "id": 2,
+      "name": "Abid Hasan",
+      "email": "abid@gmail.com",
+      "role": "user",
+      "isActive": true
+    },
+    {
+      "id": 3,
+      "name": "Rahim Uddin",
+      "email": "rahim@gmail.com",
+      "role": "user",
+      "isActive": false
+    }
+  ],
+
+  "products": [
+    {
+      "id": 101,
+      "name": "Laptop",
+      "price": 75000,
+      "stock": 5
+    },
+    {
+      "id": 102,
+      "name": "Mouse",
+      "price": 800,
+      "stock": 50
+    }
+  ],
+
+  "orders": [
+    {
+      "id": 5001,
+      "userId": 2,
+      "productId": 101,
+      "quantity": 1,
+      "status": "completed"
+    },
+    {
+      "id": 5002,
+      "userId": 3,
+      "productId": 102,
+      "quantity": 2,
+      "status": "pending"
+    }
+  ]
+}
